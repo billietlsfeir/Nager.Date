@@ -1,3 +1,10 @@
+## [1.27.1](https://github.com/billietlsfeir/Nager.Date/compare/1.27.0...1.27.1) (2021-10-04)
+
+
+### Bug Fixes
+
+* use PAT ([6578bac](https://github.com/billietlsfeir/Nager.Date/commit/6578bac6e7e09b0dcfdaf9db2a0c22ca54000a16))
+
 # [1.27.0](https://github.com/billietlsfeir/Nager.Date/compare/1.26.0...1.27.0) (2021-10-04)
 
 
