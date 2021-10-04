@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/billietlsfeir/Nager.Date/compare/1.25.0...1.26.0) (2021-10-04)
+
+
+### Features
+
+* test ([7952e30](https://github.com/billietlsfeir/Nager.Date/commit/7952e300e1f0f923489bbd6655eacd7af76abc21))
+
 # Change Log
 All notable changes to this project will be documented in this file.
  
