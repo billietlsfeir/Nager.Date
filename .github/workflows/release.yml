@@ -12,16 +12,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2.3.4
-      - name: Semantic Release dry run
-        id: semantic-dry-run
-        uses: cycjimmy/semantic-release-action@v2
-        with:
-          dry_run: true
-        env:
-          GH_TOKEN: ${{ github.token }}
-      - name: Update csproj file
-        run: |
-          sed -i "s/<Version>.*<\/Version>/<Version>${{ steps.semantic-dry-run.outputs.new_release_version }}<\/Version>/g" src/Nager.Date/Nager.Date.csproj
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v2
         env:

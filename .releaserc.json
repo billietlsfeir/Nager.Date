@@ -6,6 +6,9 @@
     "tagFormat": "${version}",
     "plugins": [
        "@semantic-release/commit-analyzer",
+       ["@semantic-release/exec", {
+		"prepareCmd": "sed -i \"s/<Version>.*<\\\/Version>/<Version>${nextRelease.version}<\\\/Version>/g\" src/Nager.Date/Nager.Date.csproj"
+       }],
        "@semantic-release/release-notes-generator",
        "@semantic-release/changelog",
        ["@semantic-release/git", {
