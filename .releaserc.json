@@ -2,7 +2,7 @@
     "branches": [
         "master"
     ],
-    "repositoryUrl": "https://github.com/nager/Nager.Date.git",
+    "repositoryUrl": "https://github.com/billietlsfeir/Nager.Date.git",
     "tagFormat": "${version}",
     "plugins": [
        "@semantic-release/commit-analyzer",
