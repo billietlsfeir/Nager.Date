@@ -1,3 +1,16 @@
+# [1.27.0](https://github.com/billietlsfeir/Nager.Date/compare/1.26.0...1.27.0) (2021-10-04)
+
+
+### Bug Fixes
+
+* github action extra plugins ([f52f5e1](https://github.com/billietlsfeir/Nager.Date/commit/f52f5e187e81a0f0da106e1421f5b3eeb0a1a40a))
+* update repository url ([6213f44](https://github.com/billietlsfeir/Nager.Date/commit/6213f4464b35097fbf798580dcd190949372cc82))
+
+
+### Features
+
+* ci/add release management ([#1](https://github.com/billietlsfeir/Nager.Date/issues/1)) ([9bd6d81](https://github.com/billietlsfeir/Nager.Date/commit/9bd6d81f5fe10a569d9dcfedaf9ba296b5488785))
+
 # [1.26.0](https://github.com/billietlsfeir/Nager.Date/compare/1.25.0...1.26.0) (2021-10-04)
 
 
